@@ -214,6 +214,9 @@ const Home = () => {
           getAllNotes={getAllNotes}
         />
       </Modal>
+      <div className="fixed bottom-0 left-0 right-0 text-center text-sm text-gray-300 py-2 ">
+        Developed by Alamin - Bringing your notes to life with NoteSync.
+      </div>
     </>
   );
 };
